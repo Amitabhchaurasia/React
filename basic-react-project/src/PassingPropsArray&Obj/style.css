@@ -1,0 +1,20 @@
+
+
+.con{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    letter-spacing: 0.186em;
+    font-weight: 500;
+    margin-top: 5px;
+  
+}
+p{
+    position: relative;
+    bottom: 20px;
+}
+

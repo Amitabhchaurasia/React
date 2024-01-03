@@ -1,0 +1,15 @@
+.price{
+    background-color: #e0c367;
+    height: 30px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#old{
+    text-decoration: line-through;
+}
+#new{
+    font-weight: bold;
+}

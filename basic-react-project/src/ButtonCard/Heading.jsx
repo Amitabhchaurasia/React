@@ -1,0 +1,8 @@
+// Paragraph.js
+import React from 'react';
+
+const Paragraph = ({ text }) => {
+  return <p>{text}</p>;
+};
+
+export default Paragraph;
