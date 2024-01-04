@@ -6,8 +6,16 @@ function Counter(c){
     let [count,setCount]=useState(0);
 
     let inCount= ()=>{
-        count++;
-        setCount(count);
+        // count++;
+        // setCount(count);
+        //   setCount(count); this is not possible , so that 
+        //we can use here call backs for multiple functions 
+        setCount((currentCount)=>{
+            return currentCount+1;
+        })
+        setCount((currentCount)=>{
+            return currentCount+1;
+        })
     }
 
     return(
